@@ -26,3 +26,4 @@ Route::middleware([
         return view('dashboard');
     })->name('dashboard');
 });
+Route::get('/amigosecreto', App\Http\Livewire\AmigoSecreto\Pagina::class);

@@ -8,6 +8,8 @@
         <title>{{ config('app.name', 'Laravel') }}</title>
 
         <!-- Fonts -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+        <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
         <link href="https://fonts.googleapis.com/css?family=Nunito:400,600,700" rel="stylesheet">
 
         <!-- Styles -->
@@ -23,11 +25,11 @@
         @livewire('navigation-menu')
 
         <!-- Page Heading -->
-        <header class="d-flex py-3 bg-white shadow-sm border-bottom">
+        {{-- <header class="d-flex py-3 bg-white shadow-sm border-bottom">
             <div class="container">
                 {{ $header }}
             </div>
-        </header>
+        </header> --}}
 
         <!-- Page Content -->
         <main class="container my-5">
