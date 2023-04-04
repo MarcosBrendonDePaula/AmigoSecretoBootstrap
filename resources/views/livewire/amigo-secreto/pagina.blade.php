@@ -38,10 +38,10 @@
                         <div class="card-body">
                             <h5 class="card-title">{{ $AmigoSecretos->nome }}</h5>
                             <p class="card-text"></p>
-                            <button type="button" wire:click="selecionar({{$AmigoSecretos->id}})" class="btn btn-primary">
+                            <button type="button" wire:click="selecionar({{$AmigoSecretos->id}})" class="btn btn-info">
                                 <i class="bi bi-pen"></i>
                             </button>
-                            <button type="button" wire:click="deletar({{$Key}})" class="btn btn-primary">
+                            <button type="button" wire:click="deletar({{$Key}})" class="btn btn-danger">
                                 <i class="bi bi-trash"></i>
                             </button>
                         </div>
